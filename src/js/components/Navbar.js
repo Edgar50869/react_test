@@ -2,8 +2,6 @@ import "./Navbar.css";
 import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined } from '@ant-design/icons';
 
-// const { SubMenu } = Menu;
-
 const Navbar = (props) => {
     return (
         <Menu selectedKeys={[props.current]} mode="horizontal">
